@@ -9,49 +9,48 @@
   },
   "favicon": "/favicon.svg",
   "navigation": {
-    "languages": [
+    "dropdowns": [
       {
-        "language": "es",
-        "dropdowns": [
+        "dropdown": "Inicio",
+        "icon": "house",
+        "pages": [
+          "index"
+        ]
+      },
+      {
+        "dropdown": "Tulacraft",
+        "icon": "swords",
+        "groups": [
           {
-            "dropdown": "Inicio",
-            "icon": "house",
+            "group": " ",
             "pages": [
-              "index"
+              "tulacraft/index"
             ]
           },
           {
-            "dropdown": "Tulacraft",
-            "icon": "swords",
-            "groups": [
-              {
-                "group": " ",
-                "pages": [
-                  "tulacraft/index"
-                ]
-              },
-              {
-                "group": "Información",
-                "pages": [
-                  "tulacraft/ayuda",
-                  "tulacraft/comandos",
-                  "tulacraft/reglas",
-                  "tulacraft/marca"
-                ]
-              }
+            "group": "Información",
+            "pages": [
+              "tulacraft/ayuda",
+              "tulacraft/comandos",
+              "tulacraft/reglas",
+              "tulacraft/marca"
             ]
-          },
-          {
-            "dropdown": "Blog",
-            "href": "https://external-link.com/blog"
           }
         ]
+      },
+      {
+        "dropdown": "Blog",
+        "href": "https://external-link.com/blog"
       }
     ]
+
   },
   "logo": {
     "light": "/logo/light.svg",
     "dark": "/logo/dark.svg"
+  },
+  "i18n": {
+    "defaultLocale": "es"
   },
   "navbar": {
     "primary": {
