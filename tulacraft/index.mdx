@@ -2,95 +2,71 @@
 title: "¡Bienvenid@ a Tulacraft!"
 ---
 
-## Setting up
+## 🎮 ¿Cómo jugar?
 
-Get your documentation site up and running in minutes.
+Para entrar en Tulacraft debes haber sido invitado por uno de los creadores y seguir las instrucciones a continuación según si eres premium o no. Solicita a la persona que te invitó que te de acceso.
 
-<Card
-  title="Start here"
-  icon="rocket"
-  href="/quickstart"
-  horizontal
->
-  Follow our three step quickstart guide.
-</Card>
+<Tabs>
+  <Tab title="PolyMC (Fácil)">
+    <Warning>
+      Es indispensable que tengas Java instalado. Versión recomendada: 21. Descárgalo de [este enlace](https://www.oracle.com/java/technologies/downloads/#java21).
+    </Warning>
+    <Steps>
+      <Step title="Instala PolyMC">
+        [Descarga desde la web oficial](https://polymc.org/download/)
+      </Step>
+      <Step title="Si es primera vez que abres el Launcher debes configurar el Java y agregar tu nombre de usuario">
+        <AccordionGroup>
+          <Accordion title="Configurar Java">
+            En la primera ejecución te preguntará sobre el ejecutable de Java. Debes seleccionar la versión recomendada y asignarle suficiente memoria:
 
-## Make it yours
+            ![Configurar Java Web](/tulacraft/imagenes/configurar-java.webp)
+          </Accordion>
+          <Accordion title="Establecer nombre de usuario">
+            En la ventana principal del launcher en la parte superior derecha dale clic a "Perfiles" y luego a "Gestionar cuentas...".
 
-Design a docs site that looks great and empowers your users.
+            <img
+              src="/tulacraft/imagenes/perfiles.webp"
+              alt="Perfiles Web"
+              title="Perfiles Web"
+              style={{ width:"61%" }}
+            />
 
-<Columns cols={2}>
-  <Card
-    title="Edit locally"
-    icon="pen-to-square"
-    href="/development"
-  >
-    Edit your docs locally and preview them in real time.
-  </Card>
-  <Card
-    title="Customize your site"
-    icon="palette"
-    href="/essentials/settings"
-  >
-    Customize the design and colors of your site to match your brand.
-  </Card>
-    <Card
-    title="Set up navigation"
-    icon="map"
-    href="/essentials/navigation"
-  >
-    Organize your docs to help users find what they need and succeed with your product.
-  </Card>
-  <Card
-    title="API documentation"
-    icon="terminal"
-    href="/api-reference/introduction"
-  >
-    Auto-generate API documentation from OpenAPI specifications.
-  </Card>
-</Columns>
+            Luego dale clic a "Agregar cuenta sin conexión" y en la ventana que se abre agrega tu nombre de usuario con el que entrarás al servidor.
 
-## Create beautiful pages
+            <img
+              src="/tulacraft/imagenes/agregar-cuenta.webp"
+              alt="Agregar Cuenta Web"
+              title="Agregar Cuenta Web"
+              style={{ width:"60%" }}
+            />
 
-Everything you need to create world-class documentation.
-
-<Columns cols={2}>
-  <Card
-    title="Write with MDX"
-    icon="pen-fancy"
-    href="/essentials/markdown"
-  >
-    Use MDX to style your docs pages.
-  </Card>
-  <Card
-    title="Code samples"
-    icon="code"
-    href="/essentials/code"
-  >
-    Add sample code to demonstrate how to use your product.
-  </Card>
-  <Card
-    title="Images"
-    icon="image"
-    href="/essentials/images"
-  >
-    Display images and other media.
-  </Card>
-  <Card
-    title="Reusable snippets"
-    icon="recycle"
-    href="/essentials/reusable-snippets"
-  >
-    Write once and reuse across your docs.
-  </Card>
-</Columns>
-
-## Need inspiration?
-
-<Card
-  title="See complete examples"
-  icon="stars"
-  href="https://mintlify.com/customers"
->
-  Browse our showcase of exceptional documentation sites.
-</Card>
+            Dale "Ok", cierra esa ventana y ya está configurado.
+          </Accordion>
+        </AccordionGroup>
+      </Step>
+      <Step title='En la ventana principal dale en "Añadir instancia"'>
+        <img
+          src="/tulacraft/imagenes/anadir-instancia.webp"
+          alt="Anadir Instancia Web"
+          title="Anadir Instancia Web"
+          className="mr-auto"
+          style={{ width:"21%" }}
+        />
+      </Step>
+      <Step title='Dale a la opción "CurseForge", busca "Tulacraft" y dale "OK"'>
+        <img
+          src="/tulacraft/imagenes/curseforge-polymc.webp"
+          alt="Curseforge Polymc Web"
+          title="Curseforge Polymc Web"
+          style={{ width:"90%" }}
+        />
+      </Step>
+      <Step title='Ejecuta la instancia y agrega esta IP en "Multiplayer"'>
+        ```
+        tula.mochos.xyz
+        ```
+      </Step>
+    </Steps>
+  </Tab>
+</Tabs>
